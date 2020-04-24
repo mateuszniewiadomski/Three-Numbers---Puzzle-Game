@@ -17,8 +17,8 @@ Source of the project idea: http://archiwum.wiz.pl/2000/00035500.asp
 
 Sample board:
 
-![Mane Interface](PresentImage1)
+![Mane Interface](PresentImage1.jpg)
 
 Simplified mode turned on (left), window with genearated board with answer (center), window with instruction (right)
 
-![Mane Interface](PresentImage2)
+![Mane Interface](PresentImage2.jpg)
