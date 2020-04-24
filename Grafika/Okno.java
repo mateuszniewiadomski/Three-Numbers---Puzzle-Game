@@ -59,7 +59,7 @@ public class Okno extends JFrame implements ActionListener, KeyListener {
     //Konstruktor tworzy okno głównej części programu
 
     public Okno() {
-        setSize(940, 630);
+        setSize(940, 635);
         setTitle("Trzy Liczby");
         setResizable(false);
         setLayout(null);
@@ -353,13 +353,13 @@ public class Okno extends JFrame implements ActionListener, KeyListener {
 
         bCofnij.setBounds(660, 100, 100, 90);
         bCofnij.setBackground(new Color(255, 230, 153));
-        bCofnij.setIcon(new ImageIcon("/home/mateusz/Uczelnia/sem3/ProgramowanieObiektowe/mniewiadomski/Projekt/Grafika/wstecz2.png"));
+        bCofnij.setIcon(new ImageIcon(this.getClass().getResource("wstecz2.png")));
         add(bCofnij);
         bCofnij.addActionListener(this);
 
         bPrzod.setBounds(780, 100, 100, 90);
         bPrzod.setBackground(new Color(255, 230, 153));
-        bPrzod.setIcon(new ImageIcon("/home/mateusz/Uczelnia/sem3/ProgramowanieObiektowe/mniewiadomski/Projekt/Grafika/dalej2.png"));
+        bPrzod.setIcon(new ImageIcon(this.getClass().getResource("dalej2.png")));
         add(bPrzod);
         bPrzod.addActionListener(this);
 

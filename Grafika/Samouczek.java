@@ -28,7 +28,7 @@ public class Samouczek extends JFrame implements ActionListener {
     private JPanel pObrazek = new JPanel();
     private JTextArea tOpis = new JTextArea(50, 30);
     private JPanel pOpis = new JPanel();
-    private ImageIcon imObraz = new ImageIcon("/home/mateusz/Uczelnia/sem3/ProgramowanieObiektowe/mniewiadomski/Projekt/Grafika/samouczek_low.gif");
+    private ImageIcon imObraz = new ImageIcon(this.getClass().getResource("samouczek_low.gif"));
 
     //Konstruktor tworzy okno samouczka
 
