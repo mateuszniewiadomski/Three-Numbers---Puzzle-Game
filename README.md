@@ -4,7 +4,7 @@ Only three different numbers should fill in the empty fields of the diagram in s
 
 Source of the project idea: http://archiwum.wiz.pl/2000/00035500.asp 
 
-# Project includes:
+## Project includes:
 - graphic interface
 - user manual
 - an algorithm that generates random solvable boards
@@ -15,10 +15,10 @@ Source of the project idea: http://archiwum.wiz.pl/2000/00035500.asp
 - exemplary solution to the generated board
 - blocking from entering unwanted symbols
 
-Sample board:
+Sample board below:
 
 ![Mane Interface](PresentImage1.jpg)
 
-Simplified mode turned on (left), window with genearated board with answer (center), window with instruction (right)
+Images below: simplified mode turned on (left), window with genearated board with answer (center), window with instruction (right)
 
 ![Mane Interface](PresentImage2.jpg)
